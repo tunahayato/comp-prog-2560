@@ -2,42 +2,38 @@
 ร้านขายต้นไม้แห่งหนึ่ง มีต้นไม้ขนาดเล็ก ขนาดกลาง และขนาดใหญ่ โดยตอนนี้จัด
 โปรโมชั่นพิเศษส่งฟรีเพียงทำตามข้อกำหนดที่กำหนดไว้ เพียงทำตามหนึ่งข้อก็จะได้รับโปรโมชั่นพิเศษส่งฟรี แต่ถ้าหากไม่ได้ทำตามข้อกำหนดข้อใดข้อหนึ่งก็จะต้องเสียค่าส่ง            
 
-
 โดย ถ้าต้นเล็ก คิดค่าส่งต้นละ 35 บาท
     
+  
+  ต้นกลาง คิดค่าส่งต่นละ 50 บาท
     
-    
-    ต้นกลาง คิดค่าส่งต่นละ 50 บาท
-    
-    
-    
-    ต้นใหญ่ คิดค่าส่งต้นละ 70 บาท     
+  
+  ต้นใหญ่ คิดค่าส่งต้นละ 70 บาท     
 
 
 
 จงเขียนโปรแกรมเพื่อรับจำนวนต้นไม้ขนาดเล็กที่ลูกค้าซื้อ (บรรทัดแรก)
                         
                         
-                        
-                        รับจำนวนต้นไม้ขนาดกลางที่ลูกค้าซื้อ (บรรทัดสอง)
-                        
-                        
-                        รับจำนวนต้นไม้ขนาดใหญ่ที่ลูกค้าซื้อ (บรรทัดสาม)
+  รับจำนวนต้นไม้ขนาดกลางที่ลูกค้าซื้อ (บรรทัดสอง)
                         
                         
-                        รับวันที่ลูกค้ามาซื้อต้นไม้ (บรรทัดสี่) โดยรับค่าเป็นตัวเลข  ดังต่อไปนี้ จันทร์=1, อังคาร=2, พุธ=3, พฤหัสบดี=4, ศุกร์=5, เสาร์=6, อาทิตย์=7
+  รับจำนวนต้นไม้ขนาดใหญ่ที่ลูกค้าซื้อ (บรรทัดสาม)
                         
                         
-                        รับจำนวนครั้งที่ลูกค้ามาซื้อต้นไม้ (บรรทัดห้า)
+  รับวันที่ลูกค้ามาซื้อต้นไม้ (บรรทัดสี่) โดยรับค่าเป็นตัวเลข  ดังต่อไปนี้ จันทร์=1, อังคาร=2, พุธ=3, พฤหัสบดี=4, ศุกร์=5, เสาร์=6, อาทิตย์=7
                         
                         
-                        คำนวณจำนวนต้นไม้ที่ซื้อทั้งหมด รวมทุกขนาด (บรรทัดที่หก)
+  รับจำนวนครั้งที่ลูกค้ามาซื้อต้นไม้ (บรรทัดห้า)
                         
                         
-                        คำนวณค่าใช้จ่ายในการส่ง (บรรทัดที่เจ็ด) กรณีฟรีจงแสดงค่าเป็น 0
+  คำนวณจำนวนต้นไม้ที่ซื้อทั้งหมด รวมทุกขนาด (บรรทัดที่หก)
                         
                         
-                        แสดง “THANK YOU :)” (บรรทัดสุดท้าย)
+  คำนวณค่าใช้จ่ายในการส่ง (บรรทัดที่เจ็ด) กรณีฟรีจงแสดงค่าเป็น 0
+                        
+                        
+  แสดง “THANK YOU :)” (บรรทัดสุดท้าย)
 
 
 ข้อกำหนด
@@ -49,52 +45,52 @@
 3.	ต้องซื้อต้นไม้ทุกขนาดอย่างน้อยหนึ่งต้น และ ต้องเคยมาไม่น้อยกว่า  1 ครั้ง และต้องมาวันอาทิตย์เท่านั้น
 
 
+           Test Case 1
 
-Test Case 1
+         #input
 
-#input
+         Enter number of small tree: 0
 
-Enter number of small tree: 0
+         Enter number of medium tree: 0
 
-Enter number of medium tree: 0
+         Enter number of big tree: 4
 
-Enter number of big tree: 4
+         Enter purchase day: 2
 
-Enter purchase day: 2
+         Enter number time of purchase: 3
 
-Enter number time of purchase: 3
+         #Output
 
-#Output
+         Total of trees >>> 4 trees.
 
-Total of trees >>> 4 trees.
+         Shipping cost  >>> 0 baht.
 
-Shipping cost  >>> 0 baht.
-
-THANK YOU :)
-
+         THANK YOU :)
 
 
 
-Test Case 2
 
-#input
+         
+         Test Case 2
 
-Enter number of small tree: 1
+         #input
 
-Enter number of medium tree: 1
+         Enter number of small tree: 1
 
-Enter number of big tree: 1
+         Enter number of medium tree: 1
 
-Enter purchase day: 7
+         Enter number of big tree: 1
 
-Enter number time of purchase: 0
+         Enter purchase day: 7
 
-#Output
+         Enter number time of purchase: 0
 
-Total of trees >>> 3 trees.
+         #Output
+ 
+         Total of trees >>> 3 trees.
 
-Shipping cost  >>> 155 baht.
+         Shipping cost  >>> 155 baht.
 
-THANK YOU :)
+         THANK YOU :)
 
 
