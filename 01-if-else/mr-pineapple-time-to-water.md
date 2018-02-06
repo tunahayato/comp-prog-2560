@@ -36,7 +36,9 @@ How many raining days before today? : 2
 
 
 You must use 15 l. for this transplant.  [ from : (20 x 25) x 0.012 ]
+
 And must water next time on 29/1/2018. 
+
 [วันนี้วันที่ 27 มีฝนตกก่อนหน้า 2 วัน ทำให้ต้องไปรดครั้งต่อไปอีก 2 วันข้างหน้า ดังนั้นการรดครั้งต่อไปคือ วันที่ 29 (27+2)]
 ____________
 TODAY Date: 30
@@ -53,6 +55,7 @@ How many raining days before today? : 5
 
 
 You must use 119.81 l. for this transplant.  [ from : (52 x 48) x 0.048 ]
+
 And must water next time on 5/7/2018.
 
 
