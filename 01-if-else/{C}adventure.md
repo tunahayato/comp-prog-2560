@@ -100,6 +100,7 @@ void main ()
 ```
 Test case:
 เมื่อใส่อะไรที่ไม่ใช่ y,Y/N,n ต้องเป็นตามรูปนี้
+```
 Enter your name:  tae
 Welcome to the game {C}adventure >>>tae<<<. <3<3<3
 This game is about learning c language.
@@ -111,10 +112,11 @@ Want to start a game. [y:n]? u
 >>>>>>>>>>Ranking<<<<<<<<<<
 You got 0/0.
 You are a baby boy!!??   
-
+```
 
 
 เมื่อจะไม่เล่นเกมนี้ก็ใส่ n,N จะได้ผลตามรูปนี้
+```
 Enter your name:  tae
 Welcome to the game {C}adventure >>>tae<<<. <3<3<3
 This game is about learning c language.
@@ -126,11 +128,12 @@ Want to start a game. [y:n]? n
 >>>>>>>>>>Ranking<<<<<<<<<<
 You got 0/0.
 You are a baby boy!!??   
-
+```
 
 
 
 เมื่อต้องการเล่นเกมนี้ก็ใส่ y,Y และเมื่อตอบถูกจะได้คะแนนและขึ้นตามรูปนี้
+```
 Enter your name:  tae
 Welcome to the game {C}adventure >>>tae<<<. <3<3<3
 This game is about learning c language.
@@ -144,12 +147,13 @@ b. .C
 c. .OBJ
 d. .BAS
 >>>>>Answer is?  
-
+```
 
 
 
 
 เมื่อตอบอะไรมาก็ไม่รู้ ไม่มีอยู่ในตัวเลือกก็จะขึ้นแบบนี้
+```
 Enter your name:  tae
 Welcome to the game {C}adventure >>>tae<<<. <3<3<3
 This game is about learning c language.
@@ -164,3 +168,4 @@ c. .OBJ
 d. .BAS
 >>>>>Answer is?  o
 >>>>>>>>>>ERROR<<<<<<<<<<<<<
+```
