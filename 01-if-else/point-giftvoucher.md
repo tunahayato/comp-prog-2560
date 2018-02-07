@@ -112,6 +112,7 @@ Enter a cash: 2000
 Are you a member?(1/0): 0
 Do you want to register?(1/0): 1
 New Member
+Point : 10
 Total : 1100 THB
 change: 900 THB
 ```
