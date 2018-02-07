@@ -3,7 +3,8 @@
 จงเขียนโปรแกรมควบคุมระบบเปิด-ปิดแอร์อัตโนมัติของบ้านหลังนี้ โดยรับข้อมูล วัน เวลา อุณหภูมิ และมีคนอยู่บ้านหรือไม่ ตามลำดับ
 **หมายเหตุ** : ข้อมูลที่รับเข้ามาเป็นจำนวนเต็ม และมีความถูกต้องเสมอ
 ##ตัวอย่าง Input / Output
-```1 Monday
+```
+1 Monday
 2 Tuesday
 3 Wednesday
 4 Thursday
@@ -14,9 +15,11 @@ What day is today? (Please enter number.): 1
 What time is it?
 -Hours: 18
 -Minutes: 00
-Air conditioner is ON.```
+Air conditioner is ON.
+```
 
-```1 Monday
+```
+1 Monday
 2 Tuesday
 3 Wednesday
 4 Thursday
@@ -27,9 +30,11 @@ What day is today? (Please enter number.): 7
 What time is it?
 -Hours: 18
 -Minutes: 01
-Air conditioner is ON.```
+Air conditioner is ON.
+```
 
-```1 Monday
+```
+1 Monday
 2 Tuesday
 3 Wednesday
 4 Thursday
@@ -41,9 +46,11 @@ What time is it?
 -Hours: 17
 -Minutes: 52
 What Temperature is it? (Celsius): 35
-Air conditioner is OFF.```
+Air conditioner is OFF.
+```
 
-```1 Monday
+```
+1 Monday
 2 Tuesday
 3 Wednesday
 4 Thursday
@@ -56,4 +63,5 @@ What time is it?
 -Minutes: 52
 What Temperature is it? (Celsius): 36
 Do you have someone at home? (Yes = 1/No = 0): 1
-Air conditioner is ON.```
+Air conditioner is ON.
+```
