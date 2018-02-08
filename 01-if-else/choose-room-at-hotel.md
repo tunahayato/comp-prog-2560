@@ -1,4 +1,4 @@
-### โปรแกรมเลือกขนาดห้องพักอัตโนมัติ
+# โปรแกรมเลือกขนาดห้องพักอัตโนมัติ
 โรงแรมแห่งหนึ่งมีระบบที่สามารถแนะนำรูปแบบห้องพักสาหรับจานวนผู้เข้าพักแต่ละกลุ่ม เพื่อจัดระเบียบในการเข้าพักของโรงแรม
 
 โดยระบบจะทำการตรวจสอบจำนวนของผู้เข้าพัก หลังจากนั้นจึงจะระบุไซส์ของห้องพักที่ผู้เข้าพักสามารถเลือกได้
@@ -36,47 +36,30 @@ ___
 ___
 ### Input/Output
 **Input/Output 1**
-
+```
 Welcome to the Hotel
-
-\> Enter number of guests: 1
-
+> Enter number of guests: 1
 You can choose a room size: S
-
 You have to pay 500 baht
-
-\> Enter your money: 500
-
+> Enter your money: 500
 Your change 0 baht
-
-
-
+```
 
 **Input/Output 2**
-
+```
 Welcome to the Hotel
-
-\> Enter number of guests: 8
-
+> Enter number of guests: 8
 You can choose a room size: XL and Family
-
-\> Do you have kids? \(y/n\): n
-
+> Do you have kids? \(y/n\): n
 You can choose a room size: XL
-
 You have to pay 1700 baht
-
-\> Enter your money: 2000
-
+> Enter your money: 2000
 Your change 300 baht
-
-
-
+```
 
 **Input/Output 3**
-
+```
 Welcome to the Hotel
-
-\> Enter number of guests: 0
-
+> Enter number of guests: 0
 Sorry, Guest must be greater or equal to 1
+```
