@@ -1,7 +1,7 @@
 # ตรวจสอบจำนวนเต็ม
 จงสร้างโปรแกรมที่รับจำนวนเต็มมาตรวจสอบว่ามี 3 และ 5 เป็นตัวร่วมหรือไม่ โดยเป็นจำนวนเต็มที่มีมากกว่า 0 และน้อยกว่า 100
 
-#### *หมายเหตุ* 
+#### *หมายเหตุ*
 
 1.ถ้าเป็นตัวร่วมของทั้ง 3 และ 5 แสดงผลลัพธ์เป็น “This Number can divided by 3 and 5.”
 
@@ -11,19 +11,17 @@
 
 ### ตัวอย่างผลลัพธ์
 ```
-Enter Number :  71
-
-Can't divided by 3.
-
+Enter Number: 71
+Can't divided by 3.  
 Can't divided by 5.
+```  
+  
 ```
-```
-Enter Number :  141
-
+Enter Number: 141
 number is out of range
-```
-```
-Enter Number :  30
+```  
 
+```
+Enter Number: 30
 This Number can divided by 3 and 5.
 ```
